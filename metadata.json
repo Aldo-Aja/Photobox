@@ -1,0 +1,5 @@
+{
+  "name": "Photostrip Studio",
+  "description": "A modern digital photo booth to create and share beautiful photostrips with custom templates.",
+  "requestFramePermissions": ["camera"]
+}
