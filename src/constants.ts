@@ -1,10 +1,14 @@
+import React from 'react';
+
 export interface Template {
   id: string;
   name: string;
   description: string;
   thumbnailUrl: string;
-  layoutType: 'grid' | 'vertical' | 'mosaic';
+  layoutType: 'grid' | 'vertical' | 'mosaic' | 'custom';
   slots: number;
+  frameUrl?: string;
+  dynamicStyle?: React.CSSProperties;
 }
 
 export const TEMPLATES: Template[] = [
